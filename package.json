@@ -4,5 +4,8 @@
   "dependencies": {
     "http": "0.0.0",
     "mqtt": "^2.18.8"
+  },
+  "scripts": {
+    "start": "node main.js"
   }
 }
