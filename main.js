@@ -3,7 +3,7 @@ var http = require('http');
 
 class Mqtt {
     constructor() {
-        this.client = mqtt.connect("wss://game.bug.devbit.be");
+        this.client = mqtt.connect("wss://game.bug.devbit.be/broker");
 
         this.client.on('connect', () => {
             this.client.subscribe("image-display", (err) => {
